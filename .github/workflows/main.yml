@@ -31,4 +31,6 @@ jobs:
       - name: Run the script
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/gcp_credentials.json
+          BUCKET_NAME: sitemaps.leeladiamond.com
+          BUCKET_FOLDER: Googlefinal
         run: python main.py
